@@ -28,7 +28,7 @@ const onFinish = async () => {
 }
 
 // 图形验证码
-let captchaSrc = $ref(`http://120.79.58.139:8081/api/notify/v1/captcha?type=change&time=${Date.now()}`)
+let captchaSrc = $ref(`http://127.0.0.1:8081/api/notify/v1/captcha?type=change&time=${Date.now()}`)
 // 更新图形验证码
 const resetCaptchaSrc = () => {
   if (captchaSrc.includes('&time')) {

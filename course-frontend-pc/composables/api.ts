@@ -3,7 +3,9 @@ import type { FetchRequest, FetchOptions } from 'ohmyfetch';
 import { message } from 'ant-design-vue';
 import { IApiBase } from '~~/types/api';
 
-export const baseUrl = 'http://120.79.58.139:8081/api';
+
+
+ export const baseUrl = 'http://127.0.0.1:8081/api';
 
 const _useApi = $fetch.create({
   baseURL: baseUrl,
